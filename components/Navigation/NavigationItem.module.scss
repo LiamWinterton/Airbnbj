@@ -1,0 +1,14 @@
+.nav_item {
+	margin-right: 2rem;
+
+	&:last-of-type {
+		margin-right: 0;
+	}
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+
+

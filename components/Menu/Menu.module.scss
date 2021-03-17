@@ -1,0 +1,21 @@
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	a {
+		display: block;
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	&__button {
+		padding: 1rem 1.25rem;
+		background: #000;
+		border-radius: 15px;
+
+		&:hover {
+			background: #2a2a2a;
+		}
+	}
+}
